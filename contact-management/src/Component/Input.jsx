@@ -4,7 +4,7 @@ import nameaction from './Action'
 function Input() {
   const [state,setState]=useState("");
   const sendData=()=>{
-    nameaction()
+    nameaction(state)
 
   }
   return (
